@@ -35,13 +35,50 @@
         <button>Enviar</button>
     </form>
     <hr>
-    <form action="">
+    <form action="#" method="#">
         <fieldset>
             <legend>Dados Pessoais</legend>
-            <label for="">Nome </label><input type="text">
-            <label for="">Sobenome </label><input type="text">
-            <label for="">Telefone </label><input type="number" placeholder=>
+            <label for="name">Nome </label><input id="name" type="text">
+            <label for="lastName">Sobenome </label><input id="lastName" type="text" value="">
+            <label for="telNumber">Telefone </label><input id="telNumber" type="text" placeholder="(xx) xxxxx-xxxx">
+            <label for="email">Email </label><input id="email" type="email">
+            <label for="senha">Senha </label><input id="senha" type="password">
+            <input type="submit" value="Enviar">
         </fieldset>
+    </form>
+    <hr>
+    <form action="#" method="#">
+        <fieldset>
+            <legend>Cursos</legend>
+            <!--INPUTS DO TIPO RADIO SÓ PERMITE A ESCOLHA DE UM ITEM-->
+            <input id="18" type="radio" name="idade"><label for="18">Menos de 18 </label>
+            <input id="25" type="radio" value="" name="idade"><label for="25">Maior que 18 e menor que 25  </label>
+            <input id="30" type="radio" placeholder="(xx) xxxxx-xxxx" name="idade"><label for="30">Maior que 25 e menor que 30  </label>
+            <input id="35" type="radio" name="idade"><label for="35">Maior que 30 e menor que 35 </label>
+            <input id="35+" type="radio" name="idade"><label for="35+">Maior que 35 </label>
+        </fieldset>
+    </form>
+    <hr>
+    <form action="#" method="#">
+        <fieldset>
+            <legend>Cursos</legend>
+            <!--INPUTS DO TIPO CHECKBOX PERMITE A ESCOLHA DE UM OU MAIS ITENS-->
+            <input id="html" type="checkbox" name="selecao_linguagem"><label for="html">HTML </label>
+            <input id="css" type="checkbox" value="" name="selecao_linguagem"><label for="css">CSS </label>
+            <input id="js" type="checkbox" placeholder="(xx) xxxxx-xxxx" name="selecao_linguagem"><label for="js">JavaScript </label>
+            <input id="java" type="checkbox" name="selecao_linguagem"><label for="java">Java </label>
+            <input id="angular" type="checkbox" name="selecao_linguagem"><label for="angular">Angular </label>
+        </fieldset>
+    </form>
+    <hr>
+    <form>
+        <label for="cor">Escolha uma cor:</label>
+        <input type="color" id="cor"><br><br>
+        <label for="data">Escolha uma data</label>
+        <input type="date"><br><br>
+        <label for="file">Selecione seus arquivos:</label>
+        <input type="file" multiple><br><br>
+        <input type="button" onclick="alert('Você clicou no botão')"  value="Clique aqui!">
     </form>
 </body>
 </html>
