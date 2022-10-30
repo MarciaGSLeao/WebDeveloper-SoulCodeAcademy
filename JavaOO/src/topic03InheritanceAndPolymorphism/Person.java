@@ -1,4 +1,4 @@
-package topic03_InheritanceAndPolymorphism;
+package topic03InheritanceAndPolymorphism;
 
 public class Person {
 
