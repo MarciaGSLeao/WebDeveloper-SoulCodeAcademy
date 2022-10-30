@@ -31,7 +31,7 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
-		<item key="renameSubpackages" value="false"/>
+		<item key="renameSubpackages" value="true"/>
 		<item key="updateTextualMatches" value="false"/>
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
@@ -46,7 +46,7 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="870"/>
+		<item key="DIALOG_X_ORIGIN" value="290"/>
 		<item key="DIALOG_Y_ORIGIN" value="75"/>
 		<item key="DIALOG_WIDTH" value="678"/>
 		<item key="DIALOG_HEIGHT" value="869"/>
@@ -63,7 +63,7 @@
 		<item key="RemoveFinal" value="false"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="870"/>
+		<item key="DIALOG_X_ORIGIN" value="290"/>
 		<item key="DIALOG_Y_ORIGIN" value="62"/>
 		<item key="DIALOG_WIDTH" value="678"/>
 		<item key="DIALOG_HEIGHT" value="889"/>

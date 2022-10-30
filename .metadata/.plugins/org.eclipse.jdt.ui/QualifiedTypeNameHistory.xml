@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="application.BankAccount_Main"/>
     <fullyQualifiedTypeName name="entities.BankAccount"/>
     <fullyQualifiedTypeName name="exercises.entities.BankAccount"/>
+    <fullyQualifiedTypeName name="topic02_AccessControls.entities.People"/>
 </qualifiedTypeNameHistroy>

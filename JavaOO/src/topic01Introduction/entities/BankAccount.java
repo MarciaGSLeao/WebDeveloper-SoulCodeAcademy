@@ -1,4 +1,4 @@
-package exercises.entities;
+package topic01Introduction.entities;
 
 public class BankAccount {
 	
@@ -38,6 +38,4 @@ public class BankAccount {
 	public void withdraw(double amount) {
 		this.balance -= amount;
 	}
-	
-	
 }

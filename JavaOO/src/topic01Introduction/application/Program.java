@@ -1,12 +1,12 @@
-package exercises.application;
+package topic01Introduction.application;
 
-import exercises.entities.BankAccount;
+import topic01Introduction.entities.BankAccount;
 
-public class BankAccountMain {
+public class Program {
 	
 	public static void main(String[] args) {
 		
-		BankAccount account = new BankAccount("João Felipe", 1234, 0.0);
+		BankAccount account = new BankAccount("Joï¿½o Felipe", 1234, 0.0);
 		
 		System.out.println("SALDO = R$ " + account.getBalance());
 		account.deposit(1500.55);
@@ -16,3 +16,4 @@ public class BankAccountMain {
 	}
 
 }
+
