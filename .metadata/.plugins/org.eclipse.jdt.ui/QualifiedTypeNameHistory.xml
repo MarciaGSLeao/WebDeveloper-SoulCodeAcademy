@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="entities.BankAccount"/>
     <fullyQualifiedTypeName name="exercises.entities.BankAccount"/>
     <fullyQualifiedTypeName name="topic02_AccessControls.entities.People"/>
+    <fullyQualifiedTypeName name="topic03_InheritanceAndPolymorphism.Person"/>
 </qualifiedTypeNameHistroy>

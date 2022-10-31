@@ -1,0 +1,16 @@
+/* Usa-se o símbolo de asterisco(*) como seletro universal da página,
+   ou seja, o estilo mencionado será aplicado em toda a página.*/
+
+h1 {
+    color: darkslateblue;
+}
+
+/* O seletor para classes é o ponto final (.) antes do nome da classe. */
+.titulo {
+    color: #8b007d;
+}
+
+/* O seletor para id é a tralha (#) antes do nome da classe. */
+#paragrafo {
+    color: #8b4a00;
+}
