@@ -1,0 +1,18 @@
+div{
+    border: 1px solid black;
+    background-color: bisque;
+    /* A MANEIRA ABAIXO É MUITO VERBOSA
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+    margin-left: 50px;
+    */
+    margin: 25px 50px 75px 50px;
+    padding: 1px 20px 1px 20px;
+    height: auto;
+    width: auto;
+}
+
+p{
+    text-align: justify;
+}
